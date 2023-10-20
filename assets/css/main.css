@@ -33,6 +33,11 @@ body {
 	line-height: 1;
 }
 
+/* Add this CSS to your stylesheet */
+.button-wrapper {
+    text-align: center;
+}
+
 ol, ul {
 	list-style: none;
 }

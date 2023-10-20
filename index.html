@@ -23,12 +23,15 @@
 				<p>Experienced Infrastructure Engineer skilled in optimizing build infrastructures,<br>
 				automating deployments, and managing critical system services, ensuring seamless<br>
 				functionality and security while fostering innovation in dynamic team environments.</p>
-				<ul class="actions special">
-					<li><a href="#one" class="button scrolly">Discover</a></li>
-					<li><a href="mailto:your.email@example.com" class="button">Hire Me</a></li>
-				</ul>
+				<div class="button-wrapper">
+					<ul class="actions special">
+						<li><a href="#one" class="button scrolly">Discover</a></li>
+						<li><a href="mailto:hapatel1109@gmail.com" class="button">Hire Me</a></li>
+					</ul>
+				</div>
 			</div>
 		</section>
+
 
 		<!-- One -->
 			<section id="one" class="main style1">
@@ -467,4 +470,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
+	<!-- Place this script at the end of your HTML body or in a separate JavaScript file -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var hireMeButton = document.querySelector('.actions.special a.button');
+        hireMeButton.addEventListener('click', function(event) {
+            event.preventDefault();
+            window.location.href = "mailto:your.email@example.com";
+        });
+    });
+</script>
+
 </html>
