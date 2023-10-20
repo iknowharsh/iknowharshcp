@@ -39,7 +39,13 @@ body {
 }
 
 .actions.special {
-    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+.actions.special li {
+    display: inline;
+    margin-right: 10px; /* Adjust the margin as needed */
 }
 
 
