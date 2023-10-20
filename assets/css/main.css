@@ -38,6 +38,11 @@ body {
     text-align: center;
 }
 
+.actions.special {
+    display: inline-block;
+}
+
+
 ol, ul {
 	list-style: none;
 }
